@@ -1,5 +1,5 @@
 # atop-waybar
-
+```
 atop-waybar/
 ├── README.md
 ├── LICENSE
@@ -13,7 +13,7 @@ atop-waybar/
 │   └── design_notes.md
 └── tests/
     └── test_parsing.sh
-
+```
 README.md — Project overview (you already have this)
 
 LICENSE — Your chosen license file (MIT, Apache, etc.)
