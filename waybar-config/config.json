@@ -1,0 +1,8 @@
+{
+  "custom/atop_monitor": {
+    "exec": "~/.config/waybar/scripts/atop_monitor.sh",
+    "interval": 5,
+    "return-type": "json",
+    "format": "{}"
+  }
+}
