@@ -1,5 +1,35 @@
 # atop-waybar
 
+atop-waybar/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── waybar-config/
+│   └── config.json
+├── scripts/
+│   ├── atop_monitor.sh
+│   └── atop_daemon.sh
+├── docs/
+│   └── design_notes.md
+└── tests/
+    └── test_parsing.sh
+
+README.md — Project overview (you already have this)
+
+LICENSE — Your chosen license file (MIT, Apache, etc.)
+
+.gitignore — Ignore logs, temp files, etc.
+
+waybar-config/config.json — Example Waybar module configuration using the script
+
+scripts/atop_monitor.sh — Script for snapshot mode atop parsing and JSON output
+
+scripts/atop_daemon.sh — Script to toggle/start atop daemon mode and parse output for live detailed stats
+
+docs/design_notes.md — Internal design considerations, parsing approach, and feature roadmap
+
+tests/test_parsing.sh — Basic tests to verify script output parsing correctness
+
 ### Let's create som precedent.
 
 You're absolutely right to question the apparent scarcity of `atop`-specific Waybar modules. Given `atop`'s robust monitoring capabilities, it's natural to expect more widespread integration with Waybar. Let's delve into why this might not be the case and explore the implications for your implementation.
